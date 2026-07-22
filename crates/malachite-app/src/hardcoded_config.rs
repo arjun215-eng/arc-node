@@ -155,7 +155,13 @@ pub mod value_sync {
 
     /// Maximum number of decided values to request in a single batch
     /// Default: `5`
-    pub const BATCH_SIZE: usize = 10;
+    ///
+    /// Pinned to 1 so every sync request covers exactly one height: a fetch
+    /// either delivers its height or fails whole, so the partial-range split
+    /// that skips a height and wedges follower sync (circlefin/arc-node#214)
+    /// cannot occur. Interim mitigation until the upstream Malachite fix
+    /// ships in Arc v0.8.
+    pub const BATCH_SIZE: usize = 1;
 }
 
 /// Gossipsub network load profile.
