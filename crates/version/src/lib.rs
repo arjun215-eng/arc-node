@@ -65,6 +65,11 @@ pub const GIT_COMMIT_HASH: &str = env!("VERGEN_GIT_SHA");
 /// Deprecated: Use version_metadata().git_sha_short instead
 pub const GIT_SHORT_HASH: &str = env!("VERGEN_GIT_SHA_SHORT");
 
+/// Git branch the binary was built from (already emitted by
+/// Git2Builder::all_git(); "HEAD" when built from a detached checkout,
+/// e.g. a tag checkout by the auto-upgrade)
+pub const GIT_BRANCH: &str = env!("VERGEN_GIT_BRANCH");
+
 #[cfg(test)]
 mod tests {
     use super::*;

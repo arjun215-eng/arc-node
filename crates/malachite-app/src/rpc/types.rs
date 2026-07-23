@@ -122,6 +122,7 @@ pub(crate) struct RpcVersion {
     pub git_version: &'static str,
     pub git_commit: &'static str,
     pub git_short_hash: &'static str,
+    pub git_branch: &'static str,
     pub cargo_version: &'static str,
 }
 

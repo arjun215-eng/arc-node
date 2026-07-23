@@ -204,6 +204,7 @@ pub(crate) async fn get_version(Extension(version): Extension<ApiVersion>) -> im
         git_version: arc_version::GIT_VERSION,
         git_commit: arc_version::GIT_COMMIT_HASH,
         git_short_hash: arc_version::GIT_SHORT_HASH,
+        git_branch: arc_version::GIT_BRANCH,
         cargo_version: arc_version::SHORT_VERSION,
     })
 }
