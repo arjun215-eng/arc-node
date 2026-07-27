@@ -1449,7 +1449,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-app"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-codec",
  "arc-malachitebft-config",
@@ -1477,7 +1477,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-app-channel"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-app",
  "arc-malachitebft-config",
@@ -1495,7 +1495,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-codec"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "bytes",
 ]
@@ -1503,7 +1503,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-config"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-types",
  "bytesize",
@@ -1517,7 +1517,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-core-consensus"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-driver",
  "arc-malachitebft-core-types",
@@ -1537,7 +1537,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-core-driver"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-state-machine",
  "arc-malachitebft-core-types",
@@ -1550,7 +1550,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-core-state-machine"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-types",
  "derive-where",
@@ -1560,7 +1560,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-core-types"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-peer",
  "async-trait",
@@ -1573,7 +1573,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-core-votekeeper"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-types",
  "derive-where",
@@ -1584,7 +1584,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-discovery"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-metrics",
  "either",
@@ -1599,7 +1599,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-engine"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-codec",
  "arc-malachitebft-config",
@@ -1632,7 +1632,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-metrics"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-state-machine",
  "prometheus-client",
@@ -1641,7 +1641,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-network"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-discovery",
  "arc-malachitebft-metrics",
@@ -1670,7 +1670,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-peer"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "bs58",
  "multihash",
@@ -1681,7 +1681,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-proto"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "prost 0.13.5",
  "prost-types 0.13.5",
@@ -1691,7 +1691,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-signing"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-types",
  "async-trait",
@@ -1701,7 +1701,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-signing-ed25519"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-types",
  "base64 0.22.1",
@@ -1714,7 +1714,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-sync"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "arc-malachitebft-core-types",
  "arc-malachitebft-metrics",
@@ -1736,7 +1736,7 @@ dependencies = [
 [[package]]
 name = "arc-malachitebft-wal"
 version = "0.7.0-pre"
-source = "git+https://github.com/circlefin/malachite.git?rev=5cd137fb#5cd137fb158fc52b55044eee9b090fd0d34996b0"
+source = "git+https://github.com/arjun215-eng/malachite.git?rev=378b0e532938cf0ef2f477bdd6defe0e983ac1e1#378b0e532938cf0ef2f477bdd6defe0e983ac1e1"
 dependencies = [
  "advisory-lock",
  "bytes",
